@@ -1,0 +1,8 @@
+make     cli GEN_TRANS_TYPE=i2cmb_generator
+make run_cli GEN_TRANS_TYPE=i2cmb_generator_register_test TEST_SEED=12345
+make run_cli GEN_TRANS_TYPE=i2cmb_generator_dut_test TEST_SEED=12345
+make run_cli GEN_TRANS_TYPE=i2cmb_generator_32_reads_test TEST_SEED=12345
+make run_cli GEN_TRANS_TYPE=i2cmb_generator_32_writes TEST_SEED=12345
+make run_cli GEN_TRANS_TYPE=i2cmb_generator_64_alts TEST_SEED=12345
+make merge_coverage
+make view_coverage
