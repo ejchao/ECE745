@@ -63,4 +63,4 @@
 	3. Byte Level FSM
 
 - Direct Test
-	THIS TEST IS NOT UTILIZED SO IGNORE i2cmb_generator_direct_test IN i2cmb_env_pkg
+	1. THIS TEST IS NOT UTILIZED SO IGNORE i2cmb_generator_direct_test IN i2cmb_env_pkg
