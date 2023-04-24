@@ -6,6 +6,7 @@
 
 # DIRECTORY STRUCTURE
 
+```
 + docs/
 |   |--- iicmb_mb.pdf
 + project_benches/
@@ -22,6 +23,7 @@
 |   |   |--- wb_pkg/
 |   |--- ncsu_pkg/
 |   |--- typ_pkg/
+```
 
 # TEST PLAN 
 - 1. Register Test
